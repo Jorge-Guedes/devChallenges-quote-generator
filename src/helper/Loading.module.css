@@ -1,0 +1,20 @@
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.loading svg {
+  fill: var(--c2);
+  font-size: 4rem;
+  animation: loading 0.5s infinite;
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(0);
+  }
+  from {
+    transform: rotate(360deg);
+  }
+}

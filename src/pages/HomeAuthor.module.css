@@ -1,0 +1,15 @@
+.headerLink {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerLink a {
+  text-decoration: none;
+  align-self: flex-end;
+  margin-right: 5%;
+}
+
+.headerLink header {
+  margin-right: 0;
+}

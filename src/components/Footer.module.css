@@ -1,0 +1,15 @@
+.footer {
+  width: 100%;
+  text-align: center;
+
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--c4);
+}
+
+.footer a {
+  font-weight: 700;
+}

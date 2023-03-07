@@ -1,0 +1,20 @@
+.container_author {
+  width: 100%;
+  margin: auto;
+  max-width: 35rem;
+}
+
+.author {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.25rem;
+  line-height: 1.2;
+  font-weight: 700;
+  color: var(--c2);
+  margin-bottom: 25%;
+}
+
+.container_author p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--c1);
+}

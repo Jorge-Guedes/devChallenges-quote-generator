@@ -1,0 +1,34 @@
+.not_found {
+  margin: auto;
+}
+
+.not_found img {
+  width: 100%;
+}
+
+.not_found a {
+  width: 100%;
+  font-size: 2rem;
+  transition: 0.3s;
+  text-decoration: none;
+  padding: 1.5rem 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.not_found a svg,
+.not_found a svg {
+  color: transparent;
+}
+
+.not_found a:hover,
+.not_found a:focus {
+  color: #fff;
+  background: var(--c2);
+}
+
+.not_found a:hover svg,
+.not_found a:focus svg {
+  color: #fff;
+}
